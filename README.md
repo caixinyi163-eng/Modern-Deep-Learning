@@ -1,4 +1,9 @@
 # Attention Fails: Understanding Vision Transformer's Degradation in Low-Data Regimes
+**Group 17**
+
+QI Shihao 25091858G
+
+CAI Xinyi 25118639G
 
 ## Library Version
 
