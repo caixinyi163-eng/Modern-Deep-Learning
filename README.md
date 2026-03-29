@@ -58,7 +58,7 @@ Fill in the **training process data** for all 6 ViT variants from the result of 
 
 #### 3.4 Attention Visualization Module
 
-Run the **Attention Visualization** module directly to generate **complete attention matrix numerical values** for all ViT variants.
+Run the **Attention Visualization** module directly to generate **complete attention matrix numerical values** for all ViT variants, and then use the attention matrix numerical values to create the heatmap.
 
 ---
 
@@ -123,11 +123,12 @@ DSAI5207_MDL_Project/
         │   └── entropy_accuracy_correlation.png
         │
         └── matrices/
-            ├── attention_matrices_standard.txt
-            ├── attention_matrices_no_pos.txt
-            ├── attention_matrices_fewer_heads.txt
-            ├── attention_matrices_small_mlp.txt
-            ├── attention_matrices_deep_mlp.txt
-            └── attention_matrices_large_patch.txt
-
+        │   ├── attention_matrices_standard.txt
+        │   ├── attention_matrices_no_pos.txt
+        │   ├── attention_matrices_fewer_heads.txt
+        │   ├── attention_matrices_small_mlp.txt
+        │   ├── attention_matrices_deep_mlp.txt
+        │   └── attention_matrices_large_patch.txt
+        └── heatmap/
+            └── figure_all_variants_attention_heatmaps.png
 ```
