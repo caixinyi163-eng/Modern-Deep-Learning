@@ -17,6 +17,51 @@ CUDA available: False
 
 ---
 
+## Execution Guide
+### 1. Run Cells 1-10
+
+Execute all cells from **Cell 1** to **Cell 10** sequentially.
+
+### 2. Run Cell 11 (Main Execution)
+
+When running **Cell 11**, you will be prompted to select an experiment:
+
+| Option | Experiment |
+|--------|------------|
+| [1] | Main Comparison (ViT vs ResNet) |
+| [2] | Ablation Study |
+| [3] | Attention Analysis |
+| [4] | Run all (may take a long time) |
+
+**For example:**
+
+Enter choice (1-4): 2
+
+Enter shots per class (default=10): 10
+
+
+### 3. Visualization Modules
+
+After completing the experiments, run the following visualization modules:
+
+#### 3.1 Best Validation Accuracy Module
+
+Fill in the `accuracies` list with the **best validation accuracy (%)** for each of the 6 ViT variants from the result of **Experiment 2: Ablation Study**, then compute the **change** (difference) relative to the first variant and run the module.
+
+#### 3.2 Attention Entropy Module
+
+Fill in the `'Entropy'` column with the **average attention entropy values** for each of the 6 ViT variants from the result of **Experiment 3: Attention Analysis**, then run the module.
+
+#### 3.3 Training Process Module
+
+Fill in the **training process data** for all 6 ViT variants from the result of **Experiment 2: Ablation Study**, then run the module.
+
+#### 3.4 Attention Visualization Module
+
+Run the **Attention Visualization** module directly to generate **complete attention matrix numerical values** for all ViT variants.
+
+---
+
 ## Project Structure
 
 
